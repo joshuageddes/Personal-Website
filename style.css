@@ -133,6 +133,7 @@ box-sizing:border-box;
 
 
 
+
 .section-2{
     background-color:black;
     color:white;
@@ -269,7 +270,9 @@ box-sizing:border-box;
   }
 
 
-
+form{
+    width:200px;
+}
 
   
 

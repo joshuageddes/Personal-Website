@@ -1,3 +1,7 @@
+function hasClass(element, className) {
+  return (' ' + element.className + ' ').indexOf(' ' + className+ ' ') > -1;
+}
+
 const options = {
     
     threshold: [0,1]
@@ -16,6 +20,28 @@ const options = {
         let ratio = entry.intersectionRatio;
 
 
+        if (hasClass(entry.target, 'section-last')) {
+          
+          if (ratio > 0) {
+          
+            section.classList.add('section-animated');
+            line.classList.add('hr-animated');
+            content.classList.add('content-animated')
+            return;
+          } else if (ratio == 0) {
+              section.classList.remove('section-animated');
+              line.classList.remove('hr-animated');
+              content.classList.remove('content-animated')
+   
+          }
+        } else{
+
+        
+
+
+
+
+
     
         if (ratio >= 1) {
           
@@ -27,8 +53,9 @@ const options = {
             section.classList.remove('section-animated');
             line.classList.remove('hr-animated');
             content.classList.remove('content-animated')
-
+ 
         }
+      }
     
         
     });
@@ -36,6 +63,7 @@ const options = {
   
 
   let observer = new IntersectionObserver(callback, options);
+  
 
 
   document.querySelectorAll('.section-wrapper').forEach((i) => {

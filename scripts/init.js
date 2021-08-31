@@ -6,6 +6,7 @@ $(document).ready(function(){
      
      
      items: 2,
+     dots: true,
      
     
      
