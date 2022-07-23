@@ -1,240 +1,384 @@
-<!doctype html>
-<html>
-<head>
-    <title>Joshua Geddes</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
-    <script src=scripts/script-alt.js defer> </script>
-    
-    
-    
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Joshua Geddes</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/icon.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
-    
-    
-    
-
-<body>
-
-
-    <script src="scripts/jquery.min.js"></script>
-    <script src="owlcarousel/owl.carousel.min.js"></script>
-    <script src="scripts/init.js"></script>
-    
-    
-    
-    <script>
-        
-    </script>
-    
-    
-    <section class='header'>
-        
-        
-        
-        <img class='rounded' src='resources/picture.png'> 
-        
-        
-        <h1> Joshua Geddes </h1>
-    <h3>Engineering Student at Queen's University</h3>
-    <form action="resources/JoshuaGeddesResume.pdf" class="button">
-        <button type="submit" class="button-child">
-
-            <strong>Download Resume</strong>
-
-        </button>
-    </form>
-    
-    
-    </section>
-    
-    
-    
-    <section class='section-box'>
-        <div class='section-wrapper'>
-        <div class ='section test-class'>
-        
-        
-        <h2>About Me</h2>
-        
-        <hr>
-
-        <div class='content-wrapper'>
-        
-        <p>Hi! I am an undergraduate student at Queen's University seeking a degree in Computer Engineering. I'm passionate about anything related to technology and finance, and love working with computers, math and data. </p>
-        <p>I am proficient working with Python, Javascript, HTML and CSS, and have working knowledge of Java and Swift. I am currently learning R and SQL for database related programming, and plan to learn a front end Javascript framework (React or Angular.js) for future development projects. Whether through hackathons or other events, I am always looking for opportunites to learn new skills, work with and meet cool people, and talk about what I find interesting. I'd love to chat about any potential opportunities, professional or otherwise. </p>
-        <p>In my free time, I like to bike, skateboard, and play video games or sports with friends.</p>
-    </div>
-        
-    
-    </div>
-</div>
-    </section>
-    
-    
-    <section class='section-box section-2'>
-        <div class='section-wrapper'>
-        <div class = 'section test-class'>
-        
-        <h2>Projects</h2>
-        <hr>
-
-        <div class='content-wrapper' style='padding-left: 10%; padding-right : 10%;'>
-
-         <div class="owl-carousel owl-centered owl-theme">
-            <div class='item'>
-
-                <h3>Compiler Bot</h3>
-                
-                <img src='resources/compiler.jpg' class='carousel-image' style='width:30%; margin-left:35%; margin-right:35%;' >
-        
-                <p>Discord bot that acts as a live compiler for Python and Javascript code, allowing users to run code through Discord modules. Made in Python for Enghacks 2021. For more info, check out the bot <a href='https://joshuageddes.github.io/Compiler-Bot' class = 'item-link'>website</a>  (note live demo is offline).</p>
-            <a href='https://github.com/joshuageddes/Compiler-Bot' class = 'item-link'>Github Repo</a>
-            
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Joshua Geddes</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Projects</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Links</a></li>
+                    </ul>
+                </div>
             </div>
-            
-                <div class='item'>
-
-                    <h3>joshuageddes.com</h3>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" style="border-radius: 50%; border: solid white 4px;" src="assets/img/photo2.jpg" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Joshua Geddes</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <!-- <div class="divider-custom-line"></div> -->
                     
-                    <img src='resources/compiler-bot.jpg' class='carousel-image' style='width:30%; margin-left:35%; margin-right:35%;' >
-            
-                    <p>This website is made from scratch using simple HTML, CSS and Javascript. I also used JQuery with the Owl Carousel plugin for the projects tab. I'm hoping to remake the site in the future with a proper frontend framework and styling templates.</p>
-                    <a href='https://github.com/joshuageddes/Personal-Website' class='item-link'>Github Repo</a>     
                 </div>
-
-                <div class='item'>
-
-                    <h3>Image Database</h3>
-                    
-                    <img src='resources/image.png' class='carousel-image' style='width:30%; margin-left:35%; margin-right:35%;' >
-            
-                    <p>Collection of web scraping scripts to create a large database of images (~200k) for training a startup machine-learning application.
-                        Made in Python using the Selenium web driver and BeautifulSoup to grab and parse information.
-                        Using the Google Sheets and Drive APIs, mass amounts of information and corresponding image ID pairs are uploaded to a cloud for future analysis</p>
-                <a href='https://github.com/joshuageddes/Image-Database' class = 'item-link'>Github Repo</a>
-                
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Applied Mathematics and Computer Engineering Student</p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0"><ul>Projects</ul></h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <!-- <div class="divider-custom-line"></div> -->
                 </div>
-
-                <div class='item'>
-
-                    <h3>Dive</h3>
-                    
-                    <img src='resources/dive.gif' class='carousel-image' style='width:30%; margin-left:35%; margin-right:35%;' >
-            
-                    <p>Fast paced web game involving dodging increasingly difficult ball patterns.
-                        Ongoing project developed in raw Javascript with basic graphics and movement. Play a prototype at this <a href='https://joshuageddes.github.io/Dive-Game' class = 'item-link'>link</a>.</p>
-                <a href='https://github.com/joshuageddes/Dive-Game' class = 'item-link'>Github Repo</a>
-                
-                </div>
-
-
-
-            
-            
-          </div>
-        </div>
-
-          
-          
-          
-
-
-        
-        
-        
-    </div>
-</div>
-    
-    </section>
-    
-    
-    <section class='section-box'>
-        <div class = 'section-wrapper section-last'>
-        <div class = 'section test-class section-animated'>
-        
-        <h2>Links</h2>
-        
-        <hr> 
-
-        <div class = 'content-wrapper' style='text-align:center;'>
-
-
-            <form action="https://github.com/joshuageddes" class="button">
-                <button type="submit" class="button-child button-alt">
-
-                    <div class='button-content'>
-
-                    <img src='resources/github.png' class='button-image'>
-        
-                    <p><strong>Github</strong></p>
-                </div>
-        
-                </button>
-            </form>
-
-
-            <form action="https://ca.linkedin.com/in/joshua-geddes-134069195" class="button">
-                <button type="submit" class="button-child button-alt">
-
-
-                <div class='button-content'>
-
-
-                    <img src='resources/linkedin.png' class='button-image'>
-                    <p><strong>LinkedIn</strong></p>
-                    
-
-                </div>
-        
-                </button>
-            </form>
-
-            <form action="mailto:joshuageddes333@gmail.com" class="button">
-                <button type="submit" class="button-child button-alt">
-
-                    <div class='button-content'>
-
-
-                        <img src='resources/mail.png' class='button-image'>
-
-
-                    
-        
-                        <p><strong>E-Mail</strong></p>
-
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-solid fa-arrow-up-right-from-square fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/pic.gif" alt="..." />
+                            
+                        </div>
+                        <h3 style="text-align:center; padding-top:20px;" >Pictionary AI</h3>
                     </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-solid fa-arrow-up-right-from-square fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/ml.png" alt="..." />
+                            
+                        </div>
+                        <h3 style="text-align:center; padding-top:20px;" >EazyML</h3>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-solid fa-arrow-up-right-from-square fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/arm.png" alt="..." />
+                            
+                        </div>
+                        <h3 style="text-align:center; padding-top:20px;" >Robotic Arm Controller</h3>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-solid fa-arrow-up-right-from-square fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/mine.png" alt="..." />
+                            
+                        </div>
+                        <h3 style="text-align:center; padding-top:20px;" >Minesweeper Solver</h3>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-solid fa-arrow-up-right-from-square fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/discord.png" alt="..." />
+                            
+                        </div>
+                        <h3 style="text-align:center; padding-top:20px;" >Compiler Discord Bot</h3>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-solid fa-arrow-up-right-from-square fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/game.gif" alt="..." />
+                            
+                        </div>
+                        <h3 style="text-align:center; padding-top:20px;" >Survival Game</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white"><ul>About</ul></h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <!-- <div class="divider-custom-line"></div> -->
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">I am an Applied Mathematics and Computer Engineering student at Queen's University with an interest in the applications of software engineering and deep learning, especially in finance and robotics.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">I love solving the problems that don't have obvious solutions. If you know of any opportunities to work on interesting problems, or even just want to chat, feel free to reach out!</p></div>
+                </div>
+                <!-- About Section Button-->
+                <div class="text-center mt-4">
+            
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-secondary mb-0">Links</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    
+                </div>
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    
+                        <a class="btn btn-outline-dark btn-social mx-3" href="https://github.com/joshuageddes"><i class="fab fa-brands fa-github-alt"></i></a>
+                        
+                        <a class="btn btn-outline-dark btn-social mx-3" href="https://www.linkedin.com/in/joshuageddes/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        
+                        
+                        <a class="btn btn-outline-dark btn-social mx-3" href="mailto:joshuageddes333@gmail.com"><i class="fab fa-solid fa-envelope"></i></a>
+                    
+                    </div>
+            </div>
+        </section>
         
-                </button>
-            </form>
-
-        
-        
-        <!-- <a href='https://github.com/joshuageddes'>Github</a>
-        <a href='https://ca.linkedin.com/in/joshua-geddes-134069195'>Linkedin</a>
-        <a href='example.com'>Resume</a>
-        <p>joshuageddes333@gmail.com | 905-483-3301</p> -->
-
-    </div>
-
-    
-    </div>   
-    </div>
-    </section>
-
-    
-
-    
-
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Joshua Geddes 2022. Based off Freelance Bootstrap template.</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Pictionary AI</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Portfolio Modal - Text-->
+                                    <h6 class="mb-4">An online Pictionary AI that tries to recognize user drawn sketches.</h6>
+                                    <button class="btn btn-primary" onclick="location.href='http://18.219.159.102/'" type="button">
+                                        <i class="fas fas fa-solid fa-arrow-up-right-from-square fa-fw"></i>
+                                        Try it!
+                                    </button>
+                                    <button class="btn btn-primary" onclick="location.href='https://github.com/joshuageddes/Online-Pictionary-AI'" type="button">
+                                        <i class="fab fa-brands fa-github-alt"></i>
+                                        Github
+                                    </button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">EazyML</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Portfolio Modal - Text-->
+                                    <h6 class="mb-4">An open-source Python machine learning library to build, train, and test simple neural networks.</h6>
+                                    <button class="btn btn-primary" onclick="location.href='https://eazy-ml.readthedocs.io/'" type="button">
+                                        <i class="fas fas fa-solid fa-file fa-fw"></i>
+                                        Documentation
+                                    </button>
+                                    <button class="btn btn-primary" onclick="location.href='https://github.com/joshuageddes/EazyML'" type="button">
+                                        <i class="fab fa-brands fa-github-alt"></i>
+                                        Github
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Robotic Arm Controller</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Portfolio Modal - Text-->
+                                    <h6 class="mb-4">A scale model of the Queen's Space Engineering Team's rover robotic arm which captures and sends rotational position data.</h6>
+                                    <button class="btn btn-primary" onclick="location.href='https://queensuca.sharepoint.com/:w:/t/GROUP-Mod3-RoboticArmProject/EREvg8uJzwtMoD3cZ05CdZwBv2tbaDViZkw2j-qNpTntYA?e=4BnZOl'" type="button">
+                                        <i class="fas fas fa-solid fa-file fa-fw"></i>
+                                        Project Report
+                                    </button>
+                                    <button class="btn btn-primary" onclick="location.href='https://example.com'" type="button">
+                                        <i class="fas fas fa-solid fa-toolbox fa-fw"></i>
+                                        CAD
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Minesweeper Solver</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Portfolio Modal - Text-->
+                                    <h6 class="mb-4">A recursive search and conquer Minesweeper Board solver which avoids "risky" moves.</h6>
+                                    <button class="btn btn-primary" onclick="location.href='https://github.com/joshuageddes/minesweeper'" type="button">
+                                        <i class="fab fa-brands fa-github-alt"></i>
+                                        Github
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Compiler Discord Bot</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Portfolio Modal - Text-->
+                                    <h6 class="mb-4">A discord bot that acts as a compiler for Python and Javascript code.</h6>
+                                    <button class="btn btn-primary" onclick="location.href='https://joshuageddes.github.io/Compiler-Bot/'" type="button">
+                                        <i class="fas fas fa-solid fa-arrow-up-right-from-square fa-fw"></i>
+                                        Website
+                                    </button>
+                                    <button class="btn btn-primary" onclick="location.href='https://github.com/joshuageddes/Compiler-Bot'" type="button">
+                                        <i class="fab fa-brands fa-github-alt"></i>
+                                        Github
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Survival Game</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Portfolio Modal - Text-->
+                                    <h6 class="mb-4">A survival webgame that involves dodging increasingly difficult ball patterns.</h6>
+                                    <button class="btn btn-primary" onclick="location.href='https://joshuageddes.github.io/Dive-Game/'" type="button">
+                                        <i class="fas fas fa-solid fa-arrow-up-right-from-square fa-fw"></i>
+                                        Try it!
+                                    </button>
+                                    <button class="btn btn-primary" onclick="location.href='https://github.com/joshuageddes/Dive-Game'" type="button">
+                                        <i class="fab fa-brands fa-github-alt"></i>
+                                        Github
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
